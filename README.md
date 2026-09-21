@@ -67,14 +67,18 @@ De map opent als vault in [Obsidian](https://obsidian.md), met de grafiek van al
 
 ## De studiepagina
 
-`/vakbrein studielaag` maakt een HTML-pagina uit het brein: wat je op het examen krijgt, hoe
-de docent vragen stelt, een studieplan met vinkjes en oefenvragen die je meteen aanklikt.
-Werkt offline, op laptop en gsm, in licht en donker, en is printbaar.
+`/vakbrein studielaag` maakt een briefing uit het brein. Je leest hem één keer aan het begin:
+wat er op het examen komt, wat het zwaarst weegt, hoe de docent vragen stelt, hoe je begint,
+en de zinnen die je tegen je AI zegt, klaar om te kopiëren. Daarna leer je in de chat.
+
+De pagina is een kaartenbak: gelijnde systeemkaarten, tabbladen als navigatie, markeerstift
+voor het gewicht, post-its voor de opdrachten en proefkaarten die je omdraait. Werkt offline,
+op laptop en gsm, in licht en donker, en is printbaar.
 
 <p align="center">
-  <img src="docs/shot-desktop.png" alt="Studiepagina op laptop, donkere modus" width="62%">
+  <img src="docs/shot-desktop.png" alt="De voorste kaart van de briefing: vaknaam, examendatum met aftelling en de eerste opdracht voor de AI op een post-it" width="62%">
   &nbsp;
-  <img src="docs/shot-mobiel.png" alt="Oefenvragen op gsm, lichte modus, met een fout en een juist antwoord aangeduid" width="30%">
+  <img src="docs/shot-mobiel.png" alt="Proefkaarten op gsm in donkere modus, de eerste omgedraaid met het oordeel en de uitleg" width="30%">
 </p>
 
 <p align="center"><a href="https://luka-yugen.github.io/vakbrein/">Probeer de demo</a>. Vak en inhoud zijn verzonnen.</p>
@@ -115,7 +119,7 @@ python3 scripts/nakijken.py --selftest
 | `/vakbrein ingest <bestand>` | een nieuwe les, slides of een oud examen verwerken |
 | `/vakbrein nakijken` | zoeken naar gaten, tegenspraak en dode links |
 | `/vakbrein examen` | oefenexamen in de echte examenvorm, je fouten worden bijgehouden |
-| `/vakbrein studielaag` | `examenstof.html` maken of bijwerken |
+| `/vakbrein studielaag` | de briefing `examenstof.html` maken of bijwerken |
 | een gewone vraag | antwoord uit het brein, met links naar de pagina's |
 
 In een tool zonder deze skill zeg je het in gewone woorden. De `AGENTS.md` van het brein
@@ -137,4 +141,5 @@ een privé-repo: er staat materiaal van je docent in.
 
 ## Licentie
 
-MIT. Gemaakt voor studenten, doe ermee wat je wil.
+MIT. Gemaakt voor studenten, doe ermee wat je wil. Het lettertype Bricolage Grotesque in de
+studiepagina valt onder de SIL Open Font License, zie `assets/fonts/OFL.txt`.

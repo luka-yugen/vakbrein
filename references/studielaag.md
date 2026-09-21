@@ -1,64 +1,59 @@
 # De studielaag: examenstof.html
 
-Eén HTML-bestand in de hoofdmap van het brein. De student opent het in een browser, op laptop
-of gsm, ook zonder internet. Het is de laag om mee te studeren. Het brein is de laag om in
-op te zoeken.
+Eén HTML-bestand in de hoofdmap van het brein. Het is een briefing: de student leest hem één
+keer, aan het begin, en weet dan wat er op het examen komt, wat het zwaarst weegt, hoe de
+docent vragen stelt, hoe te beginnen, en wat te zeggen tegen de AI. Het leren zelf gebeurt
+daarna in de chat met het brein. Werkt offline, op laptop en gsm, in licht en donker, en
+is printbaar.
 
 ## Werkwijze
 
 1. Kopieer `<skill>/assets/examenstof.html` naar `examenstof.html` in de hoofdmap.
-   Bestaat er al een: werk die bij, begin niet opnieuw. Zo blijven de vinkjes van de student.
-2. Vul elk blok met `<!-- VUL: ... -->`. Haal de commentaarregel daarna weg.
-3. Vul `PLAN` en `VRAGEN` in het script onderaan.
-4. Open het bestand in een browser als je dat kan, en kijk het na op gsm-breedte (375 px)
-   en in licht en donker.
-5. Regel in `Brain/log.md`: `## [datum] studielaag | examenstof.html bijgewerkt`.
+   Bestaat hij al: werk alleen het `VAK`-object bij.
+2. Vul het `VAK`-object in het script onderaan. Verder niets aanpassen: de opmaak, het
+   ingebakken lettertype en de code blijven zoals ze zijn.
+3. Open het bestand in een browser als je dat kan, en kijk het na op gsm-breedte.
+4. Regel in `Brain/log.md`: `## [datum] studielaag | examenstof.html bijgewerkt`.
 
-## Waar de inhoud vandaan komt
+## Het VAK-object
 
-Alles komt uit het brein. Niets nieuws verzinnen. Staat iets niet in het brein, dan staat
-het ook niet in de studielaag.
+Alles komt uit het brein. Niets verzinnen. Een lege lijst (`[]`) laat die kaart weg.
 
-| sectie | bron |
-|---|---|
-| Wat je op het examen krijgt | `Brain/Het examen.md` |
-| Hoe de docent vragen stelt | de sterkste vijf of zes uitspraken uit `Brain/Examensignalen.md`, met citaat |
-| Studieplan | de Topics, gerangschikt op gewicht uit Examensignalen, verdeeld over de dagen tot het examen |
-| Per blok | per Topic: wat je moet kunnen, de valkuilen, de breinpagina's |
-| Oefenvragen | `Oefenvragen.md`, `Voorbeeldexamen.md`, oude examens. Aangevuld tot 10 à 20 vragen |
-| Nog na te kijken | "Openstaande punten" in `AGENTS.md` |
+| veld | inhoud | bron |
+|---|---|---|
+| `naam`, `code`, `docent`, `opleiding` | kop van de voorste kaart | `AGENTS.md` |
+| `bronnen`, `bijgewerkt` | voetregel | inventaris, datum van vandaag |
+| `examen.datum` | ISO-datum en uur, voor de aftelling; leeg als onbekend | `Het examen.md` |
+| `examen.tekst` | de datum zoals je hem zegt: "vrijdag 15 januari, 9u00" | idem |
+| `examen.rijen` | `[label, tekst]` per feit: vorm, vraagtype, hulpmiddelen, cijfer | idem |
+| `examen.tip` | wat die vorm betekent voor hoe je studeert, twee zinnen | idem |
+| `begin.zin` | wat deze pagina is, twee zinnen | vast, pas de taal aan |
+| `begin.zeg` | de eerste zin die de student tegen de AI zegt | het zwaarste blok |
+| `gewicht` | per Topic: `blok`, `gewicht` 1 tot 5, `waarom`, `pagina` | `Examensignalen.md`, `Het examen.md` |
+| `signalen` | drie tot vijf uitspraken van de docent over hoe vragen gebouwd worden, `woorden` die gemarkeerd worden, `bron` (de les) | `Examensignalen.md` |
+| `stappen` | drie tot vijf stappen om te beginnen, elk met `titel`, `uitleg` en `zeg` | afgeleid uit het gewicht |
+| `ai` | vier opdrachten voor de AI met wat ze doen | vaste lijst, pas voorbeelden aan het vak aan |
+| `vragen` | drie tot zes proefvragen in de echte examenvorm | `Oefenvragen.md`, `Voorbeeldexamen.md`, oude examens |
+| `open` | wat nog nagekeken moet worden | "Openstaande punten" in `AGENTS.md` |
 
-## Het studieplan
+Opmaak in teksten: `**zo**` wordt vet. Gebruik het voor wat van buiten moet of het zwaarst
+weegt, spaarzaam. Aanhalingstekens escapen, het is JavaScript.
 
-- Van zwaar naar licht. Wat de docent het meest benadrukte en wat het meeste punten geeft
-  eerst.
-- Tel de dagen tot de examendatum. Verdeel de blokken over die dagen, met de laatste dag
-  voor herhaling en oefenvragen. Geen datum bekend: laat `dag` weg.
-- Elk blok is iets wat je in één zit doet: een titel, wat je concreet doet, een ruwe duur,
-  en het pad naar de breinpagina.
-- Een `id` verandert nooit meer als het er staat. Anders verliest de student zijn vinkjes.
+## De inhoud
 
-## De oefenvragen
-
-- Zelfde vorm als het echte examen. Meerkeuze op het examen: `type:"mc"`. Open vragen of
-  oefeningen: `type:"open"` met de kernpunten of de uitkomst als antwoord.
-- De uitleg bij een meerkeuzevraag zegt waarom het juiste antwoord klopt en welk woord of
-  welke stap de andere fout maakt.
-- Aanhalingstekens in teksten escapen, het is JavaScript.
+- **Gewicht** is een oordeel, geen gevoel. 5 is wat de docent het meest benadrukte of wat de
+  meeste punten geeft. De lengte van de markeerstreep volgt het gewicht.
+- **Stappen** eindigen altijd in iets wat de student tegen de AI zegt. Begin bij het zwaarste
+  blok, laat testen voor herhalen komen.
+- **Vragen** in de vorm van het echte examen: meerkeuze als `type:"mc"` met `opties`, `juist`
+  (index vanaf 0) en een `uitleg` die zegt welk woord of welke stap de andere opties fout
+  maakt. Open vragen of oefeningen als `type:"open"` met de kernpunten of de uitkomst.
+  Het zijn proefkaarten: het echte oefenen gebeurt met `/vakbrein examen`.
 
 ## Ontwerp
 
-Het sjabloon is af. Verander de opmaak niet, vul alleen in. Wat het al doet en zo moet blijven:
-
-- één kolom van max 860 px, 16 px marge aan de zijkant, leesbaar op een gsm
-- licht en donker volgens het systeem, met een knop om te wisselen
-- een balk bovenaan met voortgang en score, die meescrollt
-- vinkjes en antwoorden in de browser bewaard, per vak een eigen sleutel (de `<title>`)
-- printbaar: bij afdrukken verdwijnen de knoppen en staan alle antwoorden open
-- geen externe bestanden of lettertypes, zodat het offline werkt
-
-Opmaak binnen de tekst: `<b>` voor wat van buiten moet of het zwaarst weegt, `<code>` voor
-paden en artikelnummers, een `card warn` voor een studietip, een `card bad` voor een
-bekende valkuil. Spaarzaam: staat alles in het vet, valt niets meer op.
-
-Verander de `<title>` niet meer nadat de student begonnen is, dat is de opslagsleutel.
+Het sjabloon is af: een kobaltblauwe kaartenbak met gelijnde systeemkaarten, gekleurde
+tabbladen als navigatie, markeerstiften voor gewicht, post-its met kopieerknop voor wat je
+tegen je AI zegt, en proefkaarten die je omdraait. De tekst staat op een raster van 28 px
+dat samenvalt met de lijnen van de kaarten. Verander de opmaak niet. Wil je een vak een
+eigen kleur geven, pas dan alleen `--box` en `--box-deep` aan.
