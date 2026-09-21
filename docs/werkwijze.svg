@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-label="Werkwijze: bronnen worden door scripts omgezet, de AI schrijft het brein, en jij gebruikt het voor vragen, oefenexamens en de studiepagina">
+<style>
+.bg{fill:#f6f7f9}.card{fill:#fff;stroke:#dde1e8}.tx{fill:#1b1f29}.dim{fill:#5d6577}.acc{fill:#2f6bd8}.ok{fill:#1b8a66}.ln{stroke:#c9ced8}.node{fill:#fff;stroke:#5d6577}.nodea{fill:#2f6bd8}.nodeo{fill:#1b8a66}.pill{fill:#eef0f4;stroke:#dde1e8}.arrow{stroke:#2f6bd8;fill:none}.ah{fill:#2f6bd8}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media (prefers-color-scheme:dark){.bg{fill:#12141a}.card{fill:#1a1d26;stroke:#2c3142}.tx{fill:#e6e8ee}.dim{fill:#9aa1b4}.acc{fill:#6ea8fe}.ok{fill:#4ec9a0}.ln{stroke:#3a4052}.node{fill:#1a1d26;stroke:#9aa1b4}.nodea{fill:#6ea8fe}.nodeo{fill:#4ec9a0}.pill{fill:#212533;stroke:#2c3142}.arrow{stroke:#6ea8fe}.ah{fill:#6ea8fe}}
+</style>
+<rect class="bg" width="1200" height="470" rx="20"/>
+<rect class="card" x="40" y="40" width="300" height="320" rx="14" stroke-width="1.5"/>
+<text class="mono dim" x="64" y="76" font-size="15">1</text><text class="tx" x="84" y="76" font-size="20" font-weight="700">00 Bronnen/</text>
+<circle class="node" cx="68" cy="113" r="4"/><text class="tx" x="82" y="118" font-size="17">slides</text>
+<circle class="node" cx="68" cy="149" r="4"/><text class="tx" x="82" y="154" font-size="17">lestranscripties</text>
+<circle class="node" cx="68" cy="185" r="4"/><text class="tx" x="82" y="190" font-size="17">samenvattingen</text>
+<circle class="node" cx="68" cy="221" r="4"/><text class="tx" x="82" y="226" font-size="17">oefeningen in xlsx</text>
+<circle class="node" cx="68" cy="257" r="4"/><text class="tx" x="82" y="262" font-size="17">oude examens</text>
+<circle class="node" cx="68" cy="293" r="4"/><text class="tx" x="82" y="298" font-size="17">Kami-pdf's met notities</text>
+<text class="dim" x="64" y="342" font-size="15">ruw, niemand raakt het aan</text>
+<rect class="card" x="440" y="40" width="320" height="320" rx="14" stroke-width="1.5"/>
+<text class="mono dim" x="464" y="76" font-size="15">2</text><text class="tx" x="484" y="76" font-size="20" font-weight="700">Brain/</text>
+<circle class="node" cx="468" cy="113" r="4"/><text class="tx" x="482" y="118" font-size="17">Lessen/</text>
+<circle class="nodea" cx="468" cy="149" r="4"/><text class="tx" x="482" y="154" font-size="17">Concepts/</text>
+<circle class="nodea" cx="468" cy="185" r="4"/><text class="tx" x="482" y="190" font-size="17">Oefeningen/</text>
+<circle class="node" cx="468" cy="221" r="4"/><text class="tx" x="482" y="226" font-size="17">Entities/</text>
+<circle class="node" cx="468" cy="257" r="4"/><text class="tx" x="482" y="262" font-size="17">Topics/</text>
+<circle class="nodeo" cx="468" cy="293" r="4"/><text class="tx" x="482" y="298" font-size="17">Examensignalen.md</text>
+<text class="dim" x="464" y="342" font-size="15">de AI schrijft en onderhoudt</text>
+<text class="tx" x="880" y="76" font-size="20" font-weight="700"><tspan class="mono dim" font-size="15" font-weight="400">3 </tspan>wat jij gebruikt</text>
+<rect class="card" x="860" y="96" width="300" height="76" rx="12" stroke-width="1.5"/><text class="acc" x="884" y="128" font-size="17" font-weight="600">vragen stellen</text><text class="dim" x="884" y="152" font-size="14">antwoord met link naar de pagina</text>
+<rect class="card" x="860" y="184" width="300" height="76" rx="12" stroke-width="1.5"/><text class="acc" x="884" y="216" font-size="17" font-weight="600">/vakbrein examen</text><text class="dim" x="884" y="240" font-size="14">oefenen in de echte examenvorm</text>
+<rect class="card" x="860" y="272" width="300" height="76" rx="12" stroke-width="1.5"/><text class="acc" x="884" y="304" font-size="17" font-weight="600">examenstof.html</text><text class="dim" x="884" y="328" font-size="14">planning en oefenvragen, ook op gsm</text>
+<path class="arrow" d="M348 200 H428" stroke-width="2.5"/><path class="ah" d="M432 200 l-12 -7 v14z"/>
+<text class="dim mono" x="390" y="186" font-size="13" text-anchor="middle">extract.py</text><text class="dim mono" x="390" y="226" font-size="13" text-anchor="middle">notities.py</text>
+<path class="arrow" d="M768 200 H848" stroke-width="2.5"/><path class="ah" d="M852 200 l-12 -7 v14z"/>
+<rect class="pill" x="40" y="394" width="1120" height="44" rx="12" stroke-width="1.5"/>
+<text class="tx" x="600" y="422" font-size="16" text-anchor="middle"><tspan class="mono acc">SCHEMA.md</tspan> en <tspan class="mono acc">AGENTS.md</tspan> gaan mee in elk brein: de regels, leesbaar voor elke AI</text>
+</svg>

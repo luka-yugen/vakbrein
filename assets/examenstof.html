@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- VUL: vaknaam -->
+<title>Vaknaam examenstof</title>
+<style>
+:root{
+  --bg:#12141a;--card:#1a1d26;--card2:#212533;--line:#2c3142;--tx:#e6e8ee;--dim:#9aa1b4;
+  --acc:#6ea8fe;--ok:#4ec9a0;--warn:#e8b84b;--bad:#e8736b;
+  --warnbg:#1f1c12;--warnline:#5a4a1e;--badbg:#1f1414;--badline:#5a2b28;--barbg:rgba(18,20,26,.94);
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --bg:#f6f7f9;--card:#fff;--card2:#eef0f4;--line:#dde1e8;--tx:#1b1f29;--dim:#5d6577;
+    --acc:#2f6bd8;--ok:#1b8a66;--warn:#9a6a00;--bad:#c2413a;
+    --warnbg:#fff8e6;--warnline:#ecd9a6;--badbg:#fdf0ef;--badline:#efc4c0;--barbg:rgba(246,247,249,.94);
+    color-scheme:light;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f6f7f9;--card:#fff;--card2:#eef0f4;--line:#dde1e8;--tx:#1b1f29;--dim:#5d6577;
+  --acc:#2f6bd8;--ok:#1b8a66;--warn:#9a6a00;--bad:#c2413a;
+  --warnbg:#fff8e6;--warnline:#ecd9a6;--badbg:#fdf0ef;--badline:#efc4c0;--barbg:rgba(246,247,249,.94);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;padding:0 0 6rem;-webkit-text-size-adjust:100%}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+h1{font-size:clamp(1.6rem,5vw,2rem);margin:2.2rem 0 .3rem;letter-spacing:-.02em;line-height:1.2}
+h2{font-size:1.35rem;margin:3rem 0 .8rem;padding-bottom:.4rem;border-bottom:1px solid var(--line);scroll-margin-top:4rem}
+h3{font-size:1.05rem;margin:1.8rem 0 .5rem;color:var(--acc)}
+.sub{color:var(--dim);margin:0 0 1.2rem}
+a{color:var(--acc)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
+code{background:var(--card2);padding:.1rem .35rem;border-radius:4px;font-size:.88em;word-break:break-word}
+nav.toc{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+nav.toc a{font-size:.85rem;text-decoration:none;color:var(--dim);border:1px solid var(--line);border-radius:20px;padding:.15rem .7rem}
+nav.toc a:hover{color:var(--tx);border-color:var(--dim)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0}
+.card.warn{border-color:var(--warnline);background:var(--warnbg)}
+.card.bad{border-color:var(--badline);background:var(--badbg)}
+.card>:first-child{margin-top:0}.card>:last-child{margin-bottom:0}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:.4rem 0;font-size:.93rem}
+th,td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child>*{border-bottom:0}
+th{color:var(--dim);font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+.bar{position:sticky;top:0;background:var(--barbg);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:.55rem 0;z-index:5;font-size:.88rem;color:var(--dim)}
+.bar .wrap{display:flex;gap:1rem;align-items:center;white-space:nowrap}
+.bar .knop{margin-left:auto}
+.bar b{color:var(--ok);font-weight:600}
+.meter{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:transparent}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+.knop{font:inherit;font-size:.82rem;color:var(--dim);background:transparent;border:1px solid var(--line);border-radius:6px;padding:.2rem .6rem;cursor:pointer}
+.knop:hover{color:var(--tx);border-color:var(--dim)}
+.blok{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:.6rem 0}
+.blok label{display:flex;gap:.8rem;align-items:flex-start;padding:.8rem 1.1rem;cursor:pointer}
+.blok input{margin-top:.35rem;width:18px;height:18px;accent-color:var(--ok);flex:0 0 auto}
+.blok .t{font-weight:600}
+.blok .m{color:var(--dim);font-size:.88rem}
+.blok.done{opacity:.55}
+.blok.done .t{text-decoration:line-through}
+.dag{font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;color:var(--dim);margin:1.4rem 0 .3rem}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0}
+.q .casus{color:var(--dim);margin:0 0 .6rem}
+.q .vraag{font-weight:600;margin:0 0 .6rem}
+.q ol{list-style:none;margin:0;padding:0;counter-reset:o}
+.q ol li{counter-increment:o;margin:.3rem 0}
+.q ol button{all:unset;box-sizing:border-box;display:flex;gap:.6rem;width:100%;padding:.45rem .6rem;border:1px solid var(--line);border-radius:8px;cursor:pointer}
+.q ol button::before{content:counter(o,upper-alpha);font-weight:600;color:var(--dim)}
+.q ol button:hover{border-color:var(--acc)}
+.q ol button:focus-visible{outline:2px solid var(--acc)}
+.q ol button.good{border-color:var(--ok);color:var(--ok)}
+.q ol button.wrong{border-color:var(--bad);color:var(--bad)}
+.q.open ol button{cursor:default}
+.q .uitleg{display:none;margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);color:var(--dim);font-size:.93rem}
+.q.open .uitleg{display:block}
+.q details summary{cursor:pointer;color:var(--acc);font-size:.93rem}
+.q details div{margin-top:.6rem;color:var(--dim);font-size:.93rem}
+.tag{display:inline-block;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--dim);border:1px solid var(--line);border-radius:20px;padding:.1rem .6rem;margin-bottom:.6rem}
+@media print{
+  .bar,.knop,nav.toc{display:none}
+  body{background:#fff;color:#000;padding:0}
+  .card,.blok,.q{break-inside:avoid;background:#fff;border-color:#bbb}
+  .q .uitleg{display:block}
+  a{color:#000}
+}
+</style>
+</head>
+<body>
+
+<div class="bar"><div class="wrap">
+  <span id="tel">0/0 blokken</span>
+  <span id="score">vragen: nog niets</span>
+  <button class="knop" id="thema" type="button" aria-label="wissel licht en donker">licht/donker</button>
+</div><span class="meter" aria-hidden="true"><i id="meter"></i></span></div>
+
+<main class="wrap">
+
+<!-- VUL: vaknaam, code, opleiding, docent(en), uit hoeveel bronnen dit komt -->
+<h1>Vaknaam, examenstof</h1>
+<p class="sub">Code · opleiding · docent. Afgeleid uit N slidedecks, N lessen en N andere bronnen. Het brein zelf staat in <code>Brain/</code>.</p>
+
+<nav class="toc">
+  <a href="#examen">het examen</a><a href="#vragen-stellen">hoe de docent vraagt</a><a href="#plan">studieplan</a><a href="#blokken">per blok</a><a href="#oefenen">oefenvragen</a><a href="#open">nog na te kijken</a>
+</nav>
+
+<h2 id="examen">Wat je op het examen krijgt</h2>
+<!-- VUL: uit Brain/Het examen.md. Een rij per feit. Wat het belangrijkst is in <b>. -->
+<div class="card tbl"><table>
+<tr><th>Vorm</th><td>Schriftelijk, gesloten boek.</td></tr>
+<tr><th>Vraagtype</th><td><b>...</b></td></tr>
+<tr><th>Omvang</th><td>...</td></tr>
+<tr><th>Hulpmiddelen</th><td>...</td></tr>
+<tr><th>Cijfer</th><td>...</td></tr>
+</table></div>
+
+<!-- VUL: wat die examenvorm betekent voor je manier van studeren, in twee of drie zinnen -->
+<div class="card warn"><b>Wat dit betekent voor je studie.</b> ...</div>
+
+<h2 id="vragen-stellen">Hoe de docent vragen stelt</h2>
+<!-- VUL: de sterkste uitspraken uit Brain/Examensignalen.md, met citaat en les -->
+<div class="card">
+<ol>
+<li>...</li>
+</ol>
+</div>
+
+<h2 id="plan">Studieplan</h2>
+<p class="sub">Vinkjes blijven bewaard in deze browser, op dit toestel. De volgorde loopt van wat het zwaarst weegt naar wat het lichtst weegt.</p>
+<div id="planlijst"></div>
+<p><button class="knop" id="reset" type="button">wis alle vinkjes en antwoorden</button></p>
+
+<h2 id="blokken">Per blok: wat je moet kunnen</h2>
+<!-- VUL: een h3 en een card per Topic. Wat je moet kunnen, de valkuilen, en naar welke breinpagina's je gaat. -->
+<h3>Blok</h3>
+<div class="card">
+<p>...</p>
+<p class="sub" style="margin:0">In het brein: <code>Brain/Topics/...md</code></p>
+</div>
+
+<h2 id="oefenen">Oefenvragen</h2>
+<p class="sub">Klik een antwoord. De uitleg verschijnt meteen. Je score staat bovenaan.</p>
+<div id="vraaglijst"></div>
+
+<h2 id="open">Nog na te kijken</h2>
+<!-- VUL: uit "Openstaande punten" in AGENTS.md -->
+<div class="card bad"><ul><li>...</li></ul></div>
+
+</main>
+
+<script>
+/* VUL: het studieplan. id blijft gelijk bij een nieuwe versie, anders verdwijnen de vinkjes.
+   dag is optioneel: blokken met dezelfde dag komen onder een kopje. */
+const PLAN = [
+  {id:"blok-1", dag:"dag 1", t:"Titel van het blok", m:"wat je doet · ca. 2 u · Brain/Topics/..."},
+];
+
+/* VUL: oefenvragen uit Brain/Oefenvragen.md, Voorbeeldexamen.md en oude examens.
+   type "mc": opties + juist (index vanaf 0) + uitleg.
+   type "open": antwoord (de kernpunten).                                          */
+const VRAGEN = [
+  {id:"v1", type:"mc", tag:"blok", casus:"Situatie in een paar zinnen.", vraag:"Welke stelling is juist?",
+   opties:["...","...","...","..."], juist:0, uitleg:"Waarom A klopt, en welk woord B, C en D fout maakt."},
+  {id:"v2", type:"open", tag:"blok", vraag:"Open vraag.", antwoord:"De kernpunten van een goed antwoord."},
+];
+
+(() => {
+  const KEY = "vakbrein:" + document.title;
+  const lees = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } };
+  const st = Object.assign({plan:{}, mc:{}, thema:null}, lees());
+  const bewaar = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+  const el = (tag, cls, txt) => { const n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; };
+
+  const plan = document.getElementById("planlijst");
+  let dag = null;
+  PLAN.forEach(b => {
+    if (b.dag && b.dag !== dag) { dag = b.dag; plan.append(el("div", "dag", dag)); }
+    const box = el("div", "blok"), lab = el("label"), cb = el("input"), tx = el("div");
+    cb.type = "checkbox"; cb.checked = !!st.plan[b.id];
+    tx.append(el("div", "t", b.t), el("div", "m", b.m || ""));
+    lab.append(cb, tx); box.append(lab); plan.append(box);
+    box.classList.toggle("done", cb.checked);
+    cb.addEventListener("change", () => { st.plan[b.id] = cb.checked; box.classList.toggle("done", cb.checked); bewaar(); tel(); });
+  });
+
+  const lijst = document.getElementById("vraaglijst");
+  VRAGEN.forEach(v => {
+    const q = el("div", "q");
+    if (v.tag) q.append(el("span", "tag", v.tag));
+    if (v.casus) q.append(el("p", "casus", v.casus));
+    q.append(el("p", "vraag", v.vraag));
+    if (v.type === "open") {
+      const d = el("details"); d.append(el("summary", null, "toon het antwoord"), el("div", null, v.antwoord));
+      q.append(d);
+    } else {
+      const ol = el("ol"), knoppen = [];
+      const toon = keuze => {
+        q.classList.add("open");
+        knoppen.forEach((k, i) => { k.setAttribute("aria-disabled", "true");
+          if (i === v.juist) k.classList.add("good"); else if (i === keuze) k.classList.add("wrong"); });
+      };
+      v.opties.forEach((o, i) => {
+        const li = el("li"), k = el("button", null, o); k.type = "button";
+        k.addEventListener("click", () => { if (q.classList.contains("open")) return; st.mc[v.id] = i; bewaar(); toon(i); tel(); });
+        knoppen.push(k); li.append(k); ol.append(li);
+      });
+      q.append(ol, el("div", "uitleg", v.uitleg || ""));
+      if (v.id in st.mc) toon(st.mc[v.id]);
+    }
+    lijst.append(q);
+  });
+
+  function tel() {
+    const af = PLAN.filter(b => st.plan[b.id]).length;
+    document.getElementById("tel").innerHTML = `<b>${af}</b>/${PLAN.length} blokken`;
+    document.getElementById("meter").style.width = PLAN.length ? (100 * af / PLAN.length) + "%" : "0";
+    const mc = VRAGEN.filter(v => v.type !== "open" && v.id in st.mc);
+    const goed = mc.filter(v => st.mc[v.id] === v.juist).length;
+    document.getElementById("score").innerHTML = mc.length ? `vragen: <b>${goed}</b>/${mc.length} juist` : "vragen: nog niets";
+  }
+
+  const root = document.documentElement;
+  if (st.thema) root.dataset.theme = st.thema;
+  document.getElementById("thema").addEventListener("click", () => {
+    const nu = root.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    st.thema = root.dataset.theme = nu === "light" ? "dark" : "light"; bewaar();
+  });
+  document.getElementById("reset").addEventListener("click", () => {
+    if (!confirm("Alle vinkjes en antwoorden wissen?")) return;
+    st.plan = {}; st.mc = {}; bewaar(); location.reload();
+  });
+  addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));
+  tel();
+})();
+</script>
+</body>
+</html>

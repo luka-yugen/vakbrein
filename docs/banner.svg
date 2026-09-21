@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="vakbrein: al je vakmateriaal in, een studiebrein eruit">
+<style>
+.bg{fill:#f6f7f9}.card{fill:#fff;stroke:#dde1e8}.tx{fill:#1b1f29}.dim{fill:#5d6577}.acc{fill:#2f6bd8}.ok{fill:#1b8a66}.ln{stroke:#c9ced8}.node{fill:#fff;stroke:#5d6577}.nodea{fill:#2f6bd8}.nodeo{fill:#1b8a66}.pill{fill:#eef0f4;stroke:#dde1e8}.arrow{stroke:#2f6bd8;fill:none}.ah{fill:#2f6bd8}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+@media (prefers-color-scheme:dark){.bg{fill:#12141a}.card{fill:#1a1d26;stroke:#2c3142}.tx{fill:#e6e8ee}.dim{fill:#9aa1b4}.acc{fill:#6ea8fe}.ok{fill:#4ec9a0}.ln{stroke:#3a4052}.node{fill:#1a1d26;stroke:#9aa1b4}.nodea{fill:#6ea8fe}.nodeo{fill:#4ec9a0}.pill{fill:#212533;stroke:#2c3142}.arrow{stroke:#6ea8fe}.ah{fill:#6ea8fe}}
+</style>
+<rect class="bg" width="1200" height="380" rx="20"/>
+<text class="tx" x="64" y="168" font-size="76" font-weight="700" letter-spacing="-2">vakbrein</text>
+<text class="tx" x="64" y="222" font-size="26">Al je vakmateriaal in, een studiebrein eruit.</text>
+<text class="dim" x="64" y="258" font-size="20">Karpathy's LLM Wiki-methode, toegepast op één vak.</text>
+<g class="mono" font-size="15">
+<rect class="pill" x="64" y="292" width="69" height="30" rx="15"/><text class="acc" x="98.5" y="312" text-anchor="middle">nieuw</text>
+<rect class="pill" x="143" y="292" width="78" height="30" rx="15"/><text class="acc" x="182" y="312" text-anchor="middle">ingest</text>
+<rect class="pill" x="231" y="292" width="96" height="30" rx="15"/><text class="acc" x="279" y="312" text-anchor="middle">nakijken</text>
+<rect class="pill" x="337" y="292" width="78" height="30" rx="15"/><text class="acc" x="376" y="312" text-anchor="middle">examen</text>
+<rect class="pill" x="425" y="292" width="114" height="30" rx="15"/><text class="acc" x="482" y="312" text-anchor="middle">studielaag</text>
+</g>
+<g class="ln" stroke-width="1.5">
+<line x1="955" y1="190" x2="840" y2="110"/><line x1="955" y1="190" x2="1080" y2="95"/><line x1="955" y1="190" x2="1070" y2="230"/>
+<line x1="955" y1="190" x2="860" y2="280"/><line x1="955" y1="190" x2="990" y2="310"/><line x1="840" y1="110" x2="800" y2="200"/>
+<line x1="840" y1="110" x2="905" y2="60"/><line x1="1080" y1="95" x2="1125" y2="150"/><line x1="1070" y1="230" x2="1125" y2="150"/>
+<line x1="860" y1="280" x2="800" y2="200"/><line x1="990" y1="310" x2="1070" y2="230"/><line x1="1080" y1="95" x2="1030" y2="48"/>
+<line x1="840" y1="110" x2="1080" y2="95"/>
+</g>
+<circle class="nodeo" cx="955" cy="190" r="15"/>
+<circle class="nodea" cx="840" cy="110" r="10"/><circle class="node" cx="1080" cy="95" r="9" stroke-width="2"/>
+<circle class="nodea" cx="1070" cy="230" r="11"/><circle class="node" cx="860" cy="280" r="8" stroke-width="2"/>
+<circle class="node" cx="990" cy="310" r="8" stroke-width="2"/><circle class="nodea" cx="800" cy="200" r="7"/>
+<circle class="node" cx="1125" cy="150" r="5" stroke-width="2"/><circle class="node" cx="905" cy="60" r="5" stroke-width="2"/><circle class="node" cx="1030" cy="48" r="4" stroke-width="2"/>
+<g font-size="14">
+<text class="tx" x="955" y="227" text-anchor="middle" font-weight="600">Examensignalen</text>
+<text class="dim" x="840" y="90" text-anchor="middle">p-waarde</text><text class="dim" x="1080" y="75" text-anchor="middle">Les 03</text>
+<text class="dim" x="1070" y="264" text-anchor="middle">Toetsen</text><text class="dim" x="860" y="309" text-anchor="middle">z-score</text>
+<text class="dim" x="990" y="338" text-anchor="middle">Les 05</text><text class="dim" x="800" y="228" text-anchor="middle">Mediaan</text>
+</g>
+</svg>
