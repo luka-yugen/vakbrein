@@ -27,140 +27,96 @@ text{font-family:B,system-ui,sans-serif}.mono{font-family:ui-monospace,SFMono-Re
 <rect class="back" x="550" y="108" width="680" height="30" rx="6"/>
 <g filter="url(#sh)"><rect class="card" x="540" y="116" width="700" height="450" rx="6"/></g><line class="rule" x1="540" x2="1240" y1="200" y2="200" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="228" y2="228" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="256" y2="256" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="284" y2="284" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="312" y2="312" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="340" y2="340" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="368" y2="368" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="396" y2="396" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="424" y2="424" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="452" y2="452" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="480" y2="480" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="508" y2="508" stroke-width="1"/><line class="rule" x1="540" x2="1240" y1="536" y2="536" stroke-width="1"/><line class="red" x1="540" x2="1240" y1="172" y2="172" stroke-width="2"/>
 <text class="ink" x="566" y="154" font-size="26" font-weight="750">Brain/</text>
-<text class="ink2" x="1214" y="153" font-size="15" font-weight="500" text-anchor="end">42 pagina's, gelinkt door de AI</text>
-<line class="edge" x1="890.0" y1="368.0" x2="893.1" y2="275.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="890.0" y1="368.0" x2="775.7" y2="302.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="890.0" y1="368.0" x2="741.5" y2="258.8" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="890.0" y1="368.0" x2="1022.5" y2="288.2" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="890.0" y1="368.0" x2="791.4" y2="403.7" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="890.0" y1="368.0" x2="1005.0" y2="412.0" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="890.0" y1="368.0" x2="969.6" y2="390.2" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="893.1" y1="275.1" x2="791.4" y2="403.7" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="893.1" y1="275.1" x2="1005.0" y2="412.0" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="775.7" y1="302.1" x2="741.5" y2="258.8" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="775.7" y1="302.1" x2="708.7" y2="351.0" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="775.7" y1="302.1" x2="757.0" y2="204.0" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="775.7" y1="302.1" x2="833.1" y2="371.7" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="775.7" y1="302.1" x2="752.9" y2="335.7" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="741.5" y1="258.8" x2="692.5" y2="204.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="741.5" y1="258.8" x2="661.3" y2="204.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="741.5" y1="258.8" x2="632.9" y2="204.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="708.7" y1="351.0" x2="752.9" y2="335.7" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="708.7" y1="351.0" x2="608.4" y2="321.3" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="708.7" y1="351.0" x2="814.5" y2="426.9" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="833.1" y1="371.7" x2="752.9" y2="335.7" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="833.1" y1="371.7" x2="939.6" y2="460.1" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1022.5" y1="288.2" x2="1095.1" y2="318.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1022.5" y1="288.2" x2="1055.6" y2="232.4" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1022.5" y1="288.2" x2="982.5" y2="230.9" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1022.5" y1="288.2" x2="1093.5" y2="257.9" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1095.1" y1="318.1" x2="1093.5" y2="257.9" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1095.1" y1="318.1" x2="1184.0" y2="274.3" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1095.1" y1="318.1" x2="1184.0" y2="322.2" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1095.1" y1="318.1" x2="969.6" y2="390.2" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1055.6" y1="232.4" x2="1093.5" y2="257.9" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1055.6" y1="232.4" x2="1125.1" y2="204.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1055.6" y1="232.4" x2="1159.2" y2="204.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1055.6" y1="232.4" x2="927.2" y2="298.1" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="982.5" y1="230.9" x2="927.2" y2="298.1" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="791.4" y1="403.7" x2="814.5" y2="426.9" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="791.4" y1="403.7" x2="671.8" y2="457.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="791.4" y1="403.7" x2="927.2" y2="298.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="791.4" y1="403.7" x2="688.5" y2="490.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="791.4" y1="403.7" x2="763.8" y2="487.9" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="791.4" y1="403.7" x2="745.6" y2="461.4" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="814.5" y1="426.9" x2="763.8" y2="487.9" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="814.5" y1="426.9" x2="745.6" y2="461.4" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="814.5" y1="426.9" x2="969.6" y2="390.2" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="671.8" y1="457.1" x2="688.5" y2="490.1" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="671.8" y1="457.1" x2="631.4" y2="518.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="671.8" y1="457.1" x2="596.0" y2="456.2" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="688.5" y1="490.1" x2="763.8" y2="487.9" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="688.5" y1="490.1" x2="745.6" y2="461.4" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="688.5" y1="490.1" x2="596.0" y2="518.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="688.5" y1="490.1" x2="596.0" y2="518.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1005.0" y1="412.0" x2="969.6" y2="390.2" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1005.0" y1="412.0" x2="1105.4" y2="497.8" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1005.0" y1="412.0" x2="1109.8" y2="453.6" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1005.0" y1="412.0" x2="939.6" y2="460.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="1005.0" y1="412.0" x2="1053.1" y2="436.1" stroke-width="1.3" opacity="0.5"/>
-<line class="edge" x1="969.6" y1="390.2" x2="1053.1" y2="436.1" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1105.4" y1="497.8" x2="1184.0" y2="518.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1109.8" y1="453.6" x2="1053.1" y2="436.1" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="1109.8" y1="453.6" x2="1184.0" y2="484.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="939.6" y1="460.1" x2="963.2" y2="518.0" stroke-width="0.9" opacity="0.35"/>
-<line class="edge" x1="939.6" y1="460.1" x2="1007.1" y2="518.0" stroke-width="0.9" opacity="0.35"/>
-<circle cx="890.0" cy="368.0" r="13.0" fill="#e04f8a"/>
-<circle cx="893.1" cy="275.1" r="10.0" fill="#eab000"/>
-<circle cx="775.7" cy="302.1" r="10.0" fill="#1f9d57"/>
-<circle cx="741.5" cy="258.8" r="8.6" fill="#3b7cf0"/>
-<circle cx="708.7" cy="351.0" r="7.6" fill="#3b7cf0"/>
-<circle cx="757.0" cy="204.0" r="4.6" fill="#3b7cf0"/>
-<circle cx="833.1" cy="371.7" r="6.6" fill="#3b7cf0"/>
-<circle cx="752.9" cy="335.7" r="6.6" fill="#8b5cf6"/>
-<circle cx="608.4" cy="321.3" r="4.6" fill="#ef7d1a"/>
-<circle cx="692.5" cy="204.0" r="3.0" fill="#a4acbd"/>
-<circle cx="661.3" cy="204.0" r="3.0" fill="#a4acbd"/>
-<circle cx="632.9" cy="204.0" r="3.0" fill="#a4acbd"/>
-<circle cx="1022.5" cy="288.2" r="10.0" fill="#1f9d57"/>
-<circle cx="1095.1" cy="318.1" r="8.6" fill="#3b7cf0"/>
-<circle cx="1055.6" cy="232.4" r="8.6" fill="#3b7cf0"/>
-<circle cx="982.5" cy="230.9" r="5.6" fill="#3b7cf0"/>
-<circle cx="1093.5" cy="257.9" r="6.6" fill="#8b5cf6"/>
-<circle cx="1125.1" cy="204.0" r="4.6" fill="#ef7d1a"/>
-<circle cx="1184.0" cy="274.3" r="3.0" fill="#a4acbd"/>
-<circle cx="1159.2" cy="204.0" r="3.0" fill="#a4acbd"/>
-<circle cx="1184.0" cy="322.2" r="3.0" fill="#a4acbd"/>
-<circle cx="791.4" cy="403.7" r="10.0" fill="#1f9d57"/>
-<circle cx="814.5" cy="426.9" r="8.6" fill="#3b7cf0"/>
-<circle cx="671.8" cy="457.1" r="7.6" fill="#3b7cf0"/>
-<circle cx="927.2" cy="298.1" r="6.6" fill="#3b7cf0"/>
-<circle cx="688.5" cy="490.1" r="9.6" fill="#3b7cf0"/>
-<circle cx="763.8" cy="487.9" r="6.6" fill="#8b5cf6"/>
-<circle cx="745.6" cy="461.4" r="6.6" fill="#8b5cf6"/>
-<circle cx="631.4" cy="518.0" r="4.6" fill="#ef7d1a"/>
-<circle cx="596.0" cy="518.0" r="3.0" fill="#a4acbd"/>
-<circle cx="596.0" cy="456.2" r="3.0" fill="#a4acbd"/>
-<circle cx="596.0" cy="518.0" r="3.0" fill="#a4acbd"/>
-<circle cx="1005.0" cy="412.0" r="10.0" fill="#1f9d57"/>
-<circle cx="969.6" cy="390.2" r="8.6" fill="#3b7cf0"/>
-<circle cx="1105.4" cy="497.8" r="5.6" fill="#3b7cf0"/>
-<circle cx="1109.8" cy="453.6" r="6.6" fill="#3b7cf0"/>
-<circle cx="939.6" cy="460.1" r="7.6" fill="#3b7cf0"/>
-<circle cx="1053.1" cy="436.1" r="6.6" fill="#8b5cf6"/>
-<circle cx="1184.0" cy="484.0" r="4.6" fill="#ef7d1a"/>
-<circle cx="963.2" cy="518.0" r="3.0" fill="#a4acbd"/>
-<circle cx="1184.0" cy="518.0" r="3.0" fill="#a4acbd"/>
-<circle cx="1007.1" cy="518.0" r="3.0" fill="#a4acbd"/>
-<text class="ink halo" x="806.4" y="408.6" font-size="14" font-weight="650" text-anchor="start">Verdelingen</text>
-<text class="ink halo" x="890.0" y="350.0" font-size="15" font-weight="650" text-anchor="middle">Examensignalen</text>
-<text class="ink halo" x="1005.0" y="437.0" font-size="14" font-weight="650" text-anchor="middle">Toetsen</text>
-<text class="ink halo" x="775.7" y="287.1" font-size="14" font-weight="650" text-anchor="middle">Beschrijvend</text>
-<text class="ink halo" x="1022.5" y="313.2" font-size="14" font-weight="650" text-anchor="middle">Kansrekening</text>
-<text class="ink halo" x="893.1" y="260.1" font-size="14" font-weight="650" text-anchor="middle">Het examen</text>
-<text class="ink2 halo" x="688.5" y="513.7" font-size="13" font-weight="500" text-anchor="middle">CLS</text>
-<text class="ink2 halo" x="741.5" y="245.2" font-size="13" font-weight="500" text-anchor="middle">Mediaan</text>
-<text class="ink2 halo" x="1095.1" y="340.7" font-size="13" font-weight="500" text-anchor="middle">Bayes</text>
-<text class="ink2 halo" x="1055.6" y="218.8" font-size="13" font-weight="500" text-anchor="middle">Kansboom</text>
-<text class="ink2 halo" x="814.5" y="449.5" font-size="13" font-weight="500" text-anchor="middle">z-score</text>
-<text class="ink2 halo" x="969.6" y="376.6" font-size="13" font-weight="500" text-anchor="middle">p-waarde</text>
-<text class="ink2 halo" x="708.7" y="372.6" font-size="13" font-weight="500" text-anchor="middle">Spreiding</text>
-<text class="ink2 halo" x="671.8" y="444.5" font-size="13" font-weight="500" text-anchor="middle">Normaal</text>
-<text class="ink2 halo" x="939.6" y="481.7" font-size="13" font-weight="500" text-anchor="middle">Power</text>
-<text class="ink2 halo" x="821.5" y="376.3" font-size="13" font-weight="500" text-anchor="end">Correlatie</text>
-<text class="ink2 halo" x="752.9" y="356.3" font-size="13" font-weight="500" text-anchor="middle">Les 1</text>
-<text class="ink2 halo" x="1093.5" y="278.5" font-size="13" font-weight="500" text-anchor="middle">Les 3</text>
-<text class="ink2 halo" x="927.2" y="318.7" font-size="13" font-weight="500" text-anchor="middle">Binomiaal</text>
-<text class="ink2 halo" x="763.8" y="508.5" font-size="13" font-weight="500" text-anchor="middle">Les 5</text>
-<text class="ink2 halo" x="745.6" y="449.8" font-size="13" font-weight="500" text-anchor="middle">Les 6</text>
-<text class="ink2 halo" x="1109.8" y="474.2" font-size="13" font-weight="500" text-anchor="middle">Type I-fout</text>
-<text class="ink2 halo" x="1053.1" y="456.7" font-size="13" font-weight="500" text-anchor="middle">Les 8</text>
-<text class="ink2 halo" x="982.5" y="250.5" font-size="13" font-weight="500" text-anchor="middle">Onafhankelijk</text>
-<text class="ink2 halo" x="1105.4" y="517.4" font-size="13" font-weight="500" text-anchor="middle">t-toets</text>
-<text class="ink2 halo" x="757.0" y="222.6" font-size="13" font-weight="500" text-anchor="middle">Boxplot</text>
-<text class="ink2 halo" x="608.4" y="339.9" font-size="13" font-weight="500" text-anchor="middle">Oef. inkomens</text>
-<text class="ink2 halo" x="1125.1" y="194.4" font-size="13" font-weight="500" text-anchor="middle">Oef. dobbelsteen</text>
-<text class="ink2 halo" x="631.4" y="536.6" font-size="13" font-weight="500" text-anchor="middle">Oef. IQ</text>
-<text class="ink2 halo" x="1184.0" y="502.6" font-size="13" font-weight="500" text-anchor="middle">Oef. koffie</text>
+<text class="ink2" x="1214" y="153" font-size="15" font-weight="500" text-anchor="end">26 pagina's, gelinkt door de AI</text>
+<line class="edge" x1="890.0" y1="371.0" x2="890.0" y2="301.0" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="890.0" y1="371.0" x2="798.1" y2="300.3" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="798.1" y1="300.3" x2="700.0" y2="337.3" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="798.1" y1="300.3" x2="752.1" y2="264.9" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="798.1" y1="300.3" x2="846.1" y2="224.8" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="689.9" y1="285.7" x2="700.0" y2="337.3" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="689.9" y1="285.7" x2="752.1" y2="264.9" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="779.1" y1="217.1" x2="752.1" y2="264.9" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="779.1" y1="217.1" x2="846.1" y2="224.8" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="890.0" y1="371.0" x2="981.9" y2="300.3" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="981.9" y1="300.3" x2="933.9" y2="224.8" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="981.9" y1="300.3" x2="1027.9" y2="264.9" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="981.9" y1="300.3" x2="1080.0" y2="337.3" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="1000.9" y1="217.1" x2="933.9" y2="224.8" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1000.9" y1="217.1" x2="1027.9" y2="264.9" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1090.1" y1="285.7" x2="1027.9" y2="264.9" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1090.1" y1="285.7" x2="1080.0" y2="337.3" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="890.0" y1="371.0" x2="981.9" y2="441.7" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="981.9" y1="441.7" x2="1080.0" y2="404.7" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="981.9" y1="441.7" x2="1027.9" y2="477.1" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="981.9" y1="441.7" x2="933.9" y2="517.2" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="1090.1" y1="456.3" x2="1080.0" y2="404.7" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1090.1" y1="456.3" x2="1027.9" y2="477.1" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1000.9" y1="524.9" x2="1027.9" y2="477.1" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1000.9" y1="524.9" x2="933.9" y2="517.2" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="890.0" y1="371.0" x2="798.1" y2="441.7" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="798.1" y1="441.7" x2="846.1" y2="517.2" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="798.1" y1="441.7" x2="752.1" y2="477.1" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="798.1" y1="441.7" x2="700.0" y2="404.7" stroke-width="1.3" opacity="0.5"/>
+<line class="edge" x1="779.1" y1="524.9" x2="846.1" y2="517.2" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="779.1" y1="524.9" x2="752.1" y2="477.1" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="689.9" y1="456.3" x2="752.1" y2="477.1" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="689.9" y1="456.3" x2="700.0" y2="404.7" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="846.1" y1="224.8" x2="933.9" y2="224.8" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="1080.0" y1="337.3" x2="1080.0" y2="404.7" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="933.9" y1="517.2" x2="846.1" y2="517.2" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="700.0" y1="404.7" x2="700.0" y2="337.3" stroke-width="0.9" opacity="0.35"/>
+<line class="edge" x1="890.0" y1="371.0" x2="1080.0" y2="404.7" stroke-width="1.3" opacity="0.5"/>
+<circle cx="890.0" cy="371.0" r="13.0" fill="#e04f8a"/>
+<circle cx="890.0" cy="301.0" r="10.0" fill="#eab000"/>
+<circle cx="798.1" cy="300.3" r="10.0" fill="#1f9d57"/>
+<circle cx="700.0" cy="337.3" r="6.7" fill="#3b7cf0"/>
+<circle cx="689.9" cy="285.7" r="5.8" fill="#8b5cf6"/>
+<circle cx="752.1" cy="264.9" r="6.7" fill="#3b7cf0"/>
+<circle cx="779.1" cy="217.1" r="5.8" fill="#ef7d1a"/>
+<circle cx="846.1" cy="224.8" r="6.7" fill="#3b7cf0"/>
+<circle cx="981.9" cy="300.3" r="10.0" fill="#1f9d57"/>
+<circle cx="933.9" cy="224.8" r="6.7" fill="#3b7cf0"/>
+<circle cx="1000.9" cy="217.1" r="5.8" fill="#8b5cf6"/>
+<circle cx="1027.9" cy="264.9" r="6.7" fill="#3b7cf0"/>
+<circle cx="1090.1" cy="285.7" r="5.8" fill="#ef7d1a"/>
+<circle cx="1080.0" cy="337.3" r="6.7" fill="#3b7cf0"/>
+<circle cx="981.9" cy="441.7" r="10.0" fill="#1f9d57"/>
+<circle cx="1080.0" cy="404.7" r="7.6" fill="#3b7cf0"/>
+<circle cx="1090.1" cy="456.3" r="5.8" fill="#8b5cf6"/>
+<circle cx="1027.9" cy="477.1" r="6.7" fill="#3b7cf0"/>
+<circle cx="1000.9" cy="524.9" r="5.8" fill="#ef7d1a"/>
+<circle cx="933.9" cy="517.2" r="6.7" fill="#3b7cf0"/>
+<circle cx="798.1" cy="441.7" r="10.0" fill="#1f9d57"/>
+<circle cx="846.1" cy="517.2" r="6.7" fill="#3b7cf0"/>
+<circle cx="779.1" cy="524.9" r="5.8" fill="#8b5cf6"/>
+<circle cx="752.1" cy="477.1" r="6.7" fill="#3b7cf0"/>
+<circle cx="689.9" cy="456.3" r="5.8" fill="#ef7d1a"/>
+<circle cx="700.0" cy="404.7" r="6.7" fill="#3b7cf0"/>
+<text class="ink halo" x="890.0" y="400.0" font-size="15" font-weight="650" text-anchor="middle">Examensignalen</text>
+<text class="ink halo" x="783.1" y="305.2" font-size="14" font-weight="650" text-anchor="end">Beschrijvend</text>
+<text class="ink halo" x="996.9" y="305.2" font-size="14" font-weight="650" text-anchor="start">Kansrekening</text>
+<text class="ink halo" x="996.9" y="446.6" font-size="14" font-weight="650" text-anchor="start">Toetsen</text>
+<text class="ink halo" x="783.1" y="446.6" font-size="14" font-weight="650" text-anchor="end">Verdelingen</text>
+<text class="ink halo" x="890.0" y="286.0" font-size="14" font-weight="650" text-anchor="middle">Het examen</text>
+<text class="ink2 halo" x="1092.6" y="409.3" font-size="13" font-weight="500" text-anchor="start">p-waarde</text>
+<text class="ink2 halo" x="688.3" y="341.8" font-size="13" font-weight="500" text-anchor="end">Mediaan</text>
+<text class="ink2 halo" x="740.4" y="269.5" font-size="13" font-weight="500" text-anchor="end">Spreiding</text>
+<text class="ink2 halo" x="846.1" y="213.1" font-size="13" font-weight="500" text-anchor="middle">Boxplot</text>
+<text class="ink2 halo" x="933.9" y="213.1" font-size="13" font-weight="500" text-anchor="middle">Bayes</text>
+<text class="ink2 halo" x="1039.6" y="269.5" font-size="13" font-weight="500" text-anchor="start">Kansboom</text>
+<text class="ink2 halo" x="1091.7" y="341.8" font-size="13" font-weight="500" text-anchor="start">Onafhankelijk</text>
+<text class="ink2 halo" x="1039.6" y="481.6" font-size="13" font-weight="500" text-anchor="start">t-toets</text>
+<text class="ink2 halo" x="933.9" y="537.9" font-size="13" font-weight="500" text-anchor="middle">Type I-fout</text>
+<text class="ink2 halo" x="846.1" y="537.9" font-size="13" font-weight="500" text-anchor="middle">z-score</text>
+<text class="ink2 halo" x="740.4" y="481.6" font-size="13" font-weight="500" text-anchor="end">Normaal</text>
+<text class="ink2 halo" x="688.3" y="409.3" font-size="13" font-weight="500" text-anchor="end">Binomiaal</text>
+<text class="ink2 halo" x="679.1" y="290.2" font-size="13" font-weight="500" text-anchor="end">Les 1</text>
+<text class="ink2 halo" x="768.3" y="221.6" font-size="13" font-weight="500" text-anchor="end">Oef. inkomens</text>
+<text class="ink2 halo" x="1000.9" y="206.3" font-size="13" font-weight="500" text-anchor="middle">Les 3</text>
+<text class="ink2 halo" x="1100.9" y="290.2" font-size="13" font-weight="500" text-anchor="start">Oef. dobbelsteen</text>
+<text class="ink2 halo" x="1100.9" y="460.9" font-size="13" font-weight="500" text-anchor="start">Les 8</text>
+<text class="ink2 halo" x="1011.7" y="529.5" font-size="13" font-weight="500" text-anchor="start">Oef. koffie</text>
+<text class="ink2 halo" x="779.1" y="544.7" font-size="13" font-weight="500" text-anchor="middle">Les 5</text>
+<text class="ink2 halo" x="679.1" y="460.9" font-size="13" font-weight="500" text-anchor="end">Oef. IQ</text>
 <g transform="rotate(-1.2 278.0 338.0)"><g filter="url(#sh)"><rect class="card" x="44" y="128" width="468" height="420" rx="6"/></g><line class="rule" x1="44" x2="512" y1="212" y2="212" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="240" y2="240" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="268" y2="268" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="296" y2="296" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="324" y2="324" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="352" y2="352" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="380" y2="380" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="408" y2="408" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="436" y2="436" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="464" y2="464" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="492" y2="492" stroke-width="1"/><line class="rule" x1="44" x2="512" y1="520" y2="520" stroke-width="1"/><line class="red" x1="44" x2="512" y1="184" y2="184" stroke-width="2"/><text class="ink2" x="70" y="163" font-size="15" font-weight="500">skill voor je AI-assistent</text><text class="ink2" x="486" y="163" font-size="15" font-weight="500" text-anchor="end">Karpathy LLM Wiki</text><text class="ink" x="64" y="282" font-size="100" font-weight="800" style="font-stretch:88%" letter-spacing="-2.5">vakbrein</text><text class="ink" x="70" y="338" font-size="28" font-weight="700" letter-spacing="-.3">Al je vakmateriaal in,</text><path class="mark" d="M123.84375,358 Q170.5421875,354 219.240625,356.5 T284.171875,356 L281.171875,385 Q219.240625,388.5 178.65859375,386 T120.84375,387 Z"/><text class="ink" x="70" y="380" font-size="28" font-weight="700" letter-spacing="-.3">een studiebrein eruit.</text><text class="ink2" x="70" y="524" font-size="15" font-weight="500">Claude Code, Codex, Cursor en andere AI's</text><g transform="rotate(-3 392.0 452.0)"><g filter="url(#shp)"><path class="postit" d="M276,412 Q276,410 278,410 H506 Q508,410 508,412 V480 Q508,494 494,494 H278 Q276,494 276,492 Z"/></g><text class="pink" x="292" y="434" font-size="13" font-weight="650" letter-spacing=".3">zeg tegen je AI</text><text class="pink mono" x="292" y="462" font-size="20" font-weight="600">/vakbrein nieuw</text></g></g>
 </svg>
