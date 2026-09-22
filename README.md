@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img alt="MIT" src="https://img.shields.io/badge/licentie-MIT-2f6bd8">
-  <img alt="Python 3.9+" src="https://img.shields.io/badge/python-3.9%2B-1b8a66">
-  <img alt="geen dependencies" src="https://img.shields.io/badge/scripts-alleen%20stdlib-5d6577">
+  <img alt="MIT" src="https://img.shields.io/badge/licentie-MIT-1d4ed8">
+  <img alt="Python 3.9+" src="https://img.shields.io/badge/python-3.9%2B-e5383b">
+  <img alt="geen dependencies" src="https://img.shields.io/badge/scripts-alleen%20stdlib-15171c">
 </p>
 
 Een skill voor je AI-assistent die van al je materiaal voor één vak een studiebrein maakt.
@@ -26,7 +26,7 @@ Ruwe bronnen die niemand aanraakt, een wiki die de AI schrijft, en een schema me
 ## Hoe het werkt
 
 <p align="center">
-  <img src="docs/werkwijze.svg" alt="Bronnen gaan via extract.py en notities.py naar Brain/, en jij gebruikt het brein voor vragen, oefenexamens en de studiepagina" width="100%">
+  <img src="docs/werkwijze.svg" alt="Drie systeemkaarten: je bronnen, het brein dat de AI schrijft, en wat jij ermee doet: vragen stellen, oefenexamens en de studiepagina" width="100%">
 </p>
 
 De skill stelt eerst één ronde vragen: welk vak, welke examenvorm, wanneer, wat mag mee, en

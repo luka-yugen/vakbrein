@@ -150,6 +150,7 @@ Density is calm and single-column: one card per topic, read once from front to b
 - Stationery props (tabs, highlighter, post-its, flip cards) each with one job.
 - One embedded display face, system sans for reading, system mono for commands.
 - Works offline, in light and dark, in print, and with reduced motion.
+- The README images (`docs/banner.svg`, `docs/werkwijze.svg`) use the same box, cards, tabs, highlighter and post-its, with Bricolage embedded so GitHub shows the real face.
 
 ## Colors
 
